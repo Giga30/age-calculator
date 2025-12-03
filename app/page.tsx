@@ -114,7 +114,7 @@ export default function Home() {
 
   return (
     <div className="flex h-screen items-center justify-center bg-slate-200">
-      <div className="w-11/12 md:w-9/12 lg:w-7/12 bg-white px-7 py-12 rounded-3xl rounded-br-[100px] relative">
+      <div className="w-11/12 md:w-9/12 lg:w-7/12 xl:w-5/12 bg-white px-7 py-12 rounded-3xl rounded-br-[100px] relative">
         {/* Input group div */}
         <form action="/submit" onSubmit={handleSubmit}>
           <div className="flex flex-col gap-15 mb-15">
